@@ -11,3 +11,20 @@ These perceptions, could allow law enforcement bodies to allocate their resource
 
 Governments should be highly interested in accurate predictions of the severity of an accident, in order to reduce the time of arrival and thus save a significant amount of people each year. Other attentive private companies could be investing in technologies aiming to improve road safeness.
   
+ 
+Stakeholders:
+o	Public Development Authority of Seattle
+o	Car Drivers 
+
+  
+  
+Feature
+INATTENTIONIND	Whether or not accident was due to inattention (Y/N)
+UNDERINFL	Whether or not driver was in drug or alcohol (Y/N) 
+WEATHER	Weather condition
+ROADCOND	Condition of the road
+LIGHTCOND	Condition of the light
+SPEEDING	Whether or not Speeding was a factor (Y/N)
+
+Data Cleaning
+The models aim was to predict the severity of an accident, considering that, the variable of Severity Code was in the form of 1 (Property Damage Only) and 2 (Injury Collision)
