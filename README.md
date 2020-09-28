@@ -21,11 +21,17 @@ Stakeholders:
 Feature
 
 INATTENTIONIND	- Whether or not accident was due to inattention (Y/N)
+
 UNDERINFL	- Whether or not driver was in drug or alcohol (Y/N) 
+
 WEATHER -	Weather condition
+
 ROADCOND -	Condition of the road
+
 LIGHTCOND -	Condition of the light
+
 SPEEDING	- Whether or not Speeding was a factor (Y/N)
+
 
 2.1 Pre-Processing
 
