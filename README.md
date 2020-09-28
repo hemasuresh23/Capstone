@@ -1,7 +1,7 @@
 # Applied Data science capstone Final project
 This project will be mainly used for the Applied Data Science Capstone.
 
-# Introduction
+# 1. Introduction
 Road accidents have become very common nowadays. As more and people are buying automobiles, the incidences of road accidents are just increasing day by day. 
 As per WHO observatory data “Road traffic injuries are currently estimated to be the eighth leading cause of death across all age groups globally and are predicted to become the seventh leading cause of death by 2030”.
 
@@ -17,8 +17,12 @@ Stakeholders:
 
  - Car Drivers 
   
-  
-Feature
+# 2. Data  
+The data comes from Seattle car accident set. A comprehensive dataset of 194,673 accidents occuring between 2004-2020. The dataset has 38 columns describing the details of each accident including the weather conditions, collision type, date/time of accisent and location.
+
+Location,Weather,Lighting, type of intersection, road conditions, collision condition, drunk and driver and other information described in the dataset.
+
+The following features are selected for the prediction
 
 INATTENTIONIND	- Whether or not accident was due to inattention (Y/N)
 
