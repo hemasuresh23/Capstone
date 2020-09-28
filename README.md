@@ -13,9 +13,9 @@ Governments should be highly interested in accurate predictions of the severity 
   
  
 Stakeholders:
-o	Public Development Authority of Seattle
-o	Car Drivers 
+ - Public Development Authority of Seattle
 
+ - Car Drivers 
   
   
 Feature
@@ -26,5 +26,12 @@ ROADCOND	Condition of the road
 LIGHTCOND	Condition of the light
 SPEEDING	Whether or not Speeding was a factor (Y/N)
 
-Data Cleaning
-The models aim was to predict the severity of an accident, considering that, the variable of Severity Code was in the form of 1 (Property Damage Only) and 2 (Injury Collision)
+2.1 Pre-Processing
+
+The models aim was to predict the severity of an accident, considering that, the variable of Severity Code was in the form of 1 (Property Damage Only) and 2 (Injury Collision).
+
+Featured data are pre processed to convert into continuous data. Encode accident was due to attention with 0 as No and 1 as Yes. Road conditions can be segregate into dry, mushy and wet. Dry as 0, Mushy as 1 and Wet as 2. Ice,Standing Water and oil are similar to wet then it encode as 2. Snow/Slush and Sand/Mud/Dirt are encode as 1. There are few data with 'Others', So it encode as 'Unknown'. Weather conditions are encode like clear as 0, Overcast and Cloudy as 1, Windy as 2 and Rain as 3. Light conditions are encode like Light as 0, Medium as 1 and Dark asa 2. Encoding under the influence No as 0 and Yes as 1.
+
+2.2 Cleaning
+
+Data cleaning is the process of detecting and removing the inaccurate values from the data set. Here to remove Unknown or Other values from the data set. The entire process of cleansing data to reduce almost 5000 records which is having incorrect data.
