@@ -45,4 +45,4 @@ Featured data are pre processed to convert into continuous data. Encode accident
 
 2.2 Cleaning
 
-Data cleaning is the process of detecting and removing the inaccurate values from the data set. Here to remove Unknown or Other values from the data set. The entire process of cleansing data to reduce almost 5000 records which is having incorrect data.
+Data cleaning is the process of detecting and removing the inaccurate values from the data set. Here to remove Unknown or Other values from the data set. The entire process of cleansing data to reduce almost 10000 records which is having incorrect data.
